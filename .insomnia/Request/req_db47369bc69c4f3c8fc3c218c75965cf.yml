@@ -1,0 +1,68 @@
+_id: req_db47369bc69c4f3c8fc3c218c75965cf
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683224932573
+created: 1683224844496
+url: "{{ _.baseURL }}/contacts/133"
+name: PATCH-ONE-CONTACT
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "{
+
+    \t\"data\": {
+
+    \t\t\"id\": \"133\",
+
+    \t\t\"type\": \"contacts\",
+
+    \t\t\"attributes\": {
+
+    \t\t\t\"name\": \"Stella Bentes Ferraz\",
+
+    \t\t\t\"email\": \"ophelia@howe.test\",
+
+    \t\t\t\"birthdate\": \"1986-12-15T00:00:00-02:00\"
+
+    \t\t},
+
+    \t\t\"relationships\": {
+
+    \t\t\t\"kind\": {
+
+    \t\t\t\t\"data\": {
+
+    \t\t\t\t\t\"id\": \"2\",
+
+    \t\t\t\t\t\"type\": \"kinds\"
+
+    \t\t\t\t}
+
+    \t\t\t}
+
+    \t\t}
+
+    \t}
+
+    }
+
+    \t\t"
+parameters: []
+headers:
+  - id: pair_1ac4666e91584668a9e18171876c474f
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680715413056.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

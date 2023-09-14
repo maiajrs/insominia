@@ -1,0 +1,49 @@
+_id: req_0249cd1462f34c2a8475691304f90510
+type: Request
+parentId: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+modified: 1678105509524
+created: 1677000301711
+url: "{{ _.baseURL }}/client"
+name: POST-CLIENT-1
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_57618f6a2c1d49a4b176aa1b0276f6f2
+      name: email
+      value: joao@mail.com
+      description: ""
+    - id: pair_38738238e94647d7bfc4fd58ce5b5947
+      name: idade
+      value: "25"
+      description: ""
+    - id: pair_d6add88ae4cb40b4a7fb4d754c3c5fae
+      name: telefone
+      value: "85981918550"
+      description: ""
+    - id: pair_2f559b9dd00745938d1d2050e19b8753
+      name: linkedin
+      value: joao@linkedin.com.br
+      description: ""
+    - id: pair_edb3ca9ff31e49558c2b463b92975358
+      name: anotacoes
+      value: minhas anotacoes estão aqui
+      description: ""
+    - id: pair_5a81ca1e9836466996790c1d59be778d
+      name: name
+      value: João
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1676960220103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

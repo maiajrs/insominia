@@ -1,0 +1,26 @@
+_id: req_762a78a4252e403f8950b4a9a900a800
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683231289712
+created: 1682687312410
+url: "{{ _.baseURL }}/contacts/1"
+name: GET-ONE-CONTACT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1ac4666e91584668a9e18171876c474f
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1680972029326.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

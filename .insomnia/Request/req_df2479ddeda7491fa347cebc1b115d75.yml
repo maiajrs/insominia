@@ -1,0 +1,73 @@
+_id: req_df2479ddeda7491fa347cebc1b115d75
+type: Request
+parentId: fld_c152fadd358449fb9b922a9d5885402e
+modified: 1694692383286
+created: 1694607457237
+url: http://localhost:3000/create-order
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    {
+        "reference_id": "ex-00001",
+        "customer": {
+            "name": "Jose da Silva",
+            "email": "email@test.com",
+            "tax_id": "12345678909",
+            "phones": [
+                {
+                    "country": "55",
+                    "area": "11",
+                    "number": "999999999",
+                    "type": "MOBILE"
+                }
+            ]
+        },
+        "items": [
+            {
+                "reference_id": "item-00001",
+                "name": "Sample Item",
+                "quantity": 1,
+                "unit_amount": 500
+            },
+            {
+                "reference_id": "item-00002",
+                "name": "Another Sample Item",
+                "quantity": 2,
+                "unit_amount": 250
+            }
+        ],
+        "shipping": {
+            "address": {
+                "street": "Avenida Brigadeiro Faria Lima",
+                "number": "1384",
+                "complement": "apto 12",
+                "locality": "Pinheiros",
+                "city": "São Paulo",
+                "region_code": "SP",
+                "country": "BRA",
+                "postal_code": "01452002"
+            }
+        },
+        "notification_urls": [
+            "https://example.com/notifications1",
+            "https://example.com/notifications2"
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694607457237
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

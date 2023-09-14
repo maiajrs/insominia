@@ -1,0 +1,29 @@
+_id: req_53485c17b62740feb4b0bda474fc664d
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683833679341
+created: 1681998494407
+url: "{{ _.baseLocalV2 }}/contacts"
+name: GET-ALL-CONTACTS-V2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_47d26ea1bd804192aeb4952148572822
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - id: pair_164424ab7e9d4dbb9b5f6efa8e15023e
+    name: X-version
+    value: "2.0"
+    description: ""
+authentication: {}
+metaSortKey: -1681998494407
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

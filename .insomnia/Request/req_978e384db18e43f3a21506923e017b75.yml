@@ -1,0 +1,25 @@
+_id: req_978e384db18e43f3a21506923e017b75
+type: Request
+parentId: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+modified: 1678105586107
+created: 1677073602975
+url: "{{ _.baseURL }}/client/8f2cad9c-1405-400c-a3fa-1c34f345593e"
+name: DELETE-USER
+description: ""
+method: DELETE
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1676963969645.9688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

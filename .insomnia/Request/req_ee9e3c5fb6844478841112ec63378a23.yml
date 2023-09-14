@@ -1,0 +1,37 @@
+_id: req_ee9e3c5fb6844478841112ec63378a23
+type: Request
+parentId: fld_a7934eaf2f4e4eb8839f2c93ebbbc394
+modified: 1687188161799
+created: 1686681866071
+url: http://localhost:3000/actions
+name: POST_ACTION-v1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"action_item": {
+    	"description": "my new 2 action from insomnia"
+    	}
+    	
+    }
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_5868670e33b8401d8ec7a0236e60b0be
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686666288366.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

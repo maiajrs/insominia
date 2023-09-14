@@ -1,0 +1,29 @@
+_id: req_23ab0c43bb34462ea7603583b8d672ba
+type: Request
+parentId: fld_49b8e96a19594a548e50a6ce6483979c
+modified: 1685755931401
+created: 1685557737967
+url: http://localhost:3000/type_structs/20
+name: DELETE-TYPE_STRUCT
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: "Accept:"
+    value: application/json
+    description: ""
+  - id: pair_c4150537cbbb49248d4e3ec5044c2e4e
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1680430283677.8008
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

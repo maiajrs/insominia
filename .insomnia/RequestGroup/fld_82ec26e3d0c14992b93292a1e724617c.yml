@@ -1,0 +1,13 @@
+_id: fld_82ec26e3d0c14992b93292a1e724617c
+type: RequestGroup
+parentId: wrk_c7fbf53fa1744747a1f26c03b7fddab0
+modified: 1676905141334
+created: 1676903399131
+name: My Job
+description: ""
+environment:
+  baseURL: http://localhost:3333
+environmentPropertyOrder:
+  "&":
+    - baseURL
+metaSortKey: -1676903399131

@@ -1,0 +1,50 @@
+_id: req_f0d4221e47cc4484bb17af101f2e2a34
+type: Request
+parentId: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+modified: 1678105606877
+created: 1677005892174
+url: "{{ _.baseURL }}/client/bf1ec85b-f2b2-4d75-96fc-639b3e1778b3"
+name: UPDATE-USER
+description: ""
+method: PUT
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_640db9c8cfee428888ca26dc508f2147
+      name: name
+      value: George
+      description: ""
+    - id: pair_a436f1309595458a951e27990856ab66
+      name: email
+      value: carlos@mail.com
+      description: ""
+    - id: pair_1557edb16a0c4c0a98408be719762914
+      name: idade
+      value: "55"
+      description: ""
+      disabled: false
+    - id: pair_5e7e0cec25cc4cd8a99a29bd9af88752
+      name: telefone
+      value: "85981918666"
+      description: ""
+    - id: pair_8f1e1ef29bfc40d4940286157e734b7b
+      name: linkedin
+      value: carlos@linkedin.com.br
+      description: ""
+    - id: pair_cbffdd6e497048d9aaec8a5dfaa50b0b
+      name: anotacoes
+      value: Essas são as anotações do Carlos
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1676965219493.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

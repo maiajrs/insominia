@@ -1,0 +1,42 @@
+_id: req_45c9c0f4f372452ebdbfafb2c9661e1e
+type: Request
+parentId: fld_0d8d5338c24244e7ae8cc68935275aa8
+modified: 1687294076134
+created: 1686661167468
+url: "{{ _.baseURL }}/users"
+name: CREATE_USER
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_7b3bed1f74e74f65913d86ea279ce0a4
+      name: name
+      value: Júnior Maia
+      description: ""
+    - id: pair_eedc9e31d90c43efad988daf91f13086
+      name: email
+      value: jr.maiafs@gmail.com
+      description: ""
+    - id: pair_071bccc55aff4ffe9512fda35d4be7df
+      name: password
+      value: "123456"
+      description: ""
+      disabled: false
+parameters:
+  - id: pair_040a756c22e04a47b264a1a44ab71de2
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1686661167468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

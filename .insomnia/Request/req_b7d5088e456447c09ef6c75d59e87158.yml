@@ -1,0 +1,49 @@
+_id: req_b7d5088e456447c09ef6c75d59e87158
+type: Request
+parentId: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+modified: 1677174692633
+created: 1677174541721
+url: "{{ _.baseURL }}/client"
+name: POST-CLIENT-4
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_2c331079b5124627bbfcd6d084d625e9
+      name: name
+      value: Renato
+      description: ""
+    - id: pair_57618f6a2c1d49a4b176aa1b0276f6f2
+      name: email
+      value: renato@mail.com
+      description: ""
+    - id: pair_38738238e94647d7bfc4fd58ce5b5947
+      name: idade
+      value: "28"
+      description: ""
+    - id: pair_d6add88ae4cb40b4a7fb4d754c3c5fae
+      name: telefone
+      value: "85981918590"
+      description: ""
+    - id: pair_2f559b9dd00745938d1d2050e19b8753
+      name: linkedin
+      value: renato@linkedin.com.br
+      description: ""
+    - id: pair_edb3ca9ff31e49558c2b463b92975358
+      name: anotacoes
+      value: As anotacoes do Renato estão aqui
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1676925224368.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

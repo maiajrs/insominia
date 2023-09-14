@@ -1,0 +1,38 @@
+_id: req_ec8a6c644f5f4a32816fbd0ecdee2b57
+type: Request
+parentId: fld_f61a1f344f524d33a3481c154c4fe61c
+modified: 1685557602212
+created: 1680631901005
+url: http://localhost:3000/officials
+name: POST-OFFICIALS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "757757575",
+    	"name": "Pereira Mota"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4e70cee8e7b84c62a4f4018a9a7aaeef
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: "Accept:"
+    value: application/json
+    description: ""
+  - id: pair_c4150537cbbb49248d4e3ec5044c2e4e
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1685249565396.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

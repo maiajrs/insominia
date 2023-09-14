@@ -1,0 +1,25 @@
+_id: req_b377c64c39e74cf2835238d016d2c334
+type: Request
+parentId: fld_3a1644fd82de452eb05efc2692d6d92c
+modified: 1687188016562
+created: 1687186648682
+url: http://localhost:3000/typologies/2
+name: GET-ONE-TYPOLOGY
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686671409265
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

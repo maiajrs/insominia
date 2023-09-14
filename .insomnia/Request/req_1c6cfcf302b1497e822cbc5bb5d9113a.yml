@@ -1,0 +1,24 @@
+_id: req_1c6cfcf302b1497e822cbc5bb5d9113a
+type: Request
+parentId: fld_3a749e47b0764f2b87432bfbd35f7108
+modified: 1694009382796
+created: 1694009004758
+url: http://localhost:3000/activities/2/checklists/new
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_861ff559a86b46bb97a3561fa6d2c841
+authentication: {}
+metaSortKey: -1694009004758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

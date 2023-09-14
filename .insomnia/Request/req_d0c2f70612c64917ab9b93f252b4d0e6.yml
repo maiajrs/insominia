@@ -1,0 +1,21 @@
+_id: req_d0c2f70612c64917ab9b93f252b4d0e6
+type: Request
+parentId: fld_82ec26e3d0c14992b93292a1e724617c
+modified: 1676920250873
+created: 1676920224978
+url: "{{ _.baseURL }}/clients"
+name: GET-ALL-CLIENTS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676920224978
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

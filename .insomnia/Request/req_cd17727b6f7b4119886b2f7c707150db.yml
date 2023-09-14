@@ -1,0 +1,21 @@
+_id: req_cd17727b6f7b4119886b2f7c707150db
+type: Request
+parentId: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+modified: 1679071493919
+created: 1677005562173
+url: "{{ _.baseURL }}/client/17d0a9a2-e1d3-49fb-8ff2-1002fd5c2e38"
+name: GET-ONE-USER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676970218884.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

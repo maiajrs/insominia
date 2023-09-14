@@ -1,0 +1,13 @@
+_id: fld_2a3e042d54be4ae58dc2a60588811f76
+type: RequestGroup
+parentId: wrk_c7fbf53fa1744747a1f26c03b7fddab0
+modified: 1685730145298
+created: 1685730113197
+name: API-NEST-FIRST-TEST
+description: ""
+environment:
+  baseURL: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - baseURL
+metaSortKey: -1685730113197

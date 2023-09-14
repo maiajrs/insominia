@@ -1,0 +1,326 @@
+_id: req_dc788de11d9143ff906828c2e8a46459
+type: Request
+parentId: fld_a9a92fdb14bf41fea09994d4d29e1d73
+modified: 1692198697981
+created: 1692194907430
+url: http://localhost:3000/perception_reports/2
+name: UPDATE-REPORT
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    { "data": {
+        "id": 2,
+        "observations": "This perception_reports was updated",
+        "observations_typologies": null,
+        "construction_time": "6 a 30",
+        "bedrooms_qtd": "3 a 5",
+        "victims_without_abrasions_qtd": "6 a 10",
+        "victims_with_abrasions_qtd": "Acima de 10",
+        "victims_with_serious_injuries_qtd": "1 a 5",
+        "fatal_victims_qtd": "6 a 10",
+        "cip_time": "6 a 30",
+        "number_people_reached": null,
+        "obs_victims": "",
+        "obs_times": "",
+        "obs_number_people": null,
+        "obs_local_pathologies": "",
+        "obs_pathologies": "",
+        "obs_others_pathologies": "",
+        "obs_preventive_measures": "",
+        "additional_infors": "",
+        "obs_finals": "14",
+        "obs_conclusion": "",
+    	    "perception_report_preventive_actions": [
+          {
+    				"id": 2,
+            "preventive_action_id": 2,
+    				"_destroy": true
+
+          },
+    			 {
+            "preventive_action_id": 1
+
+          },
+          {
+    				"id": 2,
+            "preventive_action_id": 5,
+    				"_destroy": true
+
+          }
+        ],
+        "occurrence": {
+          "id": 1,
+          "number_process": "0001/2023",
+          "spu": "86164064-7",
+          "phone": "(93) 0304-5641",
+          "phone_secondary": "(61) 3505-1418",
+          "cell_phone": "(87) 98037-8260",
+          "cell_phone_secondary": "(73) 99067-7311",
+          "description": "Quidem unde sit laborum.",
+          "requester": "Ruan da Fonseca",
+          "hour": "08/16/2023 15:55",
+          "team_date_hour": "08/17/2023 00:08",
+          "user": {
+            "id": 1,
+            "name": "admin",
+            "official": null
+          },
+          "activity": {
+            "id": 1,
+            "description": "Teste de cadastro de atividade",
+            "start_date": "2023-08-16T10:09:17.781-03:00",
+            "end_date": "2023-08-16T10:09:17.781-03:00",
+            "observation": "Teste de cadastro de atividade",
+            "finish": true,
+            "fixed": true,
+            "driver_id": null,
+            "sector": {
+              "id": 1,
+              "name": "CEAVUS"
+            },
+            "sub_sector": {
+              "id": 1,
+              "name": "SENOT"
+            },
+            "user": {
+              "id": 1,
+              "name": "admin",
+              "official": null
+            },
+            "initial_activity": {
+              "id": 1,
+              "name": "Atividades emergenciais"
+            },
+            "activity_officials": [
+              {
+                "id": 1,
+                "official_id": 1,
+                "official": {
+                  "id": 1,
+                  "name": "LUÍS UCHÔA PINHO",
+                  "identifier": "4543501",
+                  "type_official": "driver",
+                  "email": "luis@defesacivil.com.br"
+                }
+              }
+            ],
+            "activity_actions": [
+              {
+                "id": 1,
+                "action_id": 1,
+                "action": {
+                  "id": 1,
+                  "description": "Realizada interdição"
+                }
+              },
+              {
+                "id": 2,
+                "action_id": 2,
+                "action": {
+                  "id": 2,
+                  "description": "Realizada a remoção da (s) família (s)"
+                }
+              },
+              {
+                "id": 3,
+                "action_id": 3,
+                "action": {
+                  "id": 3,
+                  "description": "Entregue material assistencial"
+                }
+              },
+              {
+                "id": 4,
+                "action_id": 4,
+                "action": {
+                  "id": 4,
+                  "description": "Realizada evacuação"
+                }
+              }
+            ]
+          },
+          "address": {
+            "id": 1,
+            "name": "s/n Avenida Maya",
+            "complement": "Lote 12",
+            "zip_code": "87901-114",
+            "reference": "Willow Pointe",
+            "lat": "73.88379909076016",
+            "long": "66.7347814347377",
+            "district_id": 1,
+            "district": "Aerolândia"
+          },
+          "departament": {},
+          "typology": {},
+          "occurrence_typologies": [
+            {
+              "id": 1,
+              "typology_id": 1,
+              "typology": {}
+            }
+          ],
+          "occurrence_teams": [],
+          "modulator": {
+            "id": 1,
+            "name": "LUÍS UCHÔA PINHO",
+            "identifier": "4543501",
+            "type_official": "driver",
+            "email": "luis@defesacivil.com.br"
+          }
+        },
+        "responsibles": [
+          {
+            "id": 2,
+            "name": "João do Teste",
+            "phone": "85999871213",
+            "document": "1000879321234",
+            "email": "joao@mail.com",
+            "type_resp": {
+              "id": 2,
+              "name": "Inquilino"
+            }
+          }
+        ],
+        "perception_report_pathologies": [
+          {
+            "id": 2,
+            "pathology_id": 1,
+            "pathology": {
+              "id": 1,
+              "name": "Abaulamento"
+            }
+          },
+          {
+            "id": 3,
+            "pathology_id": 3,
+            "pathology": {
+              "id": 3,
+              "name": "Deslocamento/Estufamento de placa cerâmica"
+            }
+          }
+        ],
+        "perception_report_others_pathologies": [
+          {
+            "id": 2,
+            "others_pathology_id": 3,
+            "others_pathology": {
+              "id": 3,
+              "name": "Via Pública alagada",
+              "desc": "Ausência de sistema de drenagem."
+            }
+          },
+          {
+            "id": 3,
+            "others_pathology_id": 6,
+            "others_pathology": {
+              "id": 6,
+              "name": "Residências alagadas",
+              "desc": "Boca de lobo e/ou bueiros obstruídos."
+            }
+          }
+        ],
+        "perception_report_struct_pathologies": [
+          {
+            "id": 2,
+            "struct_pathology_id": 3,
+            "struct_pathology": {
+              "id": 3,
+              "name": "Descolamento/Estufamento de placa cerâmica"
+            }
+          },
+          {
+            "id": 3,
+            "struct_pathology_id": 2,
+            "struct_pathology": {
+              "id": 2,
+              "name": "Capilaridade"
+            }
+          }
+        ],
+        "perception_report_local_pathologies": [
+          {
+            "id": 2,
+            "local_pathology_id": 2,
+            "local_pathology": {
+              "id": 2,
+              "name": "Fachada lateral esquerda"
+            }
+          },
+          {
+            "id": 3,
+            "local_pathology_id": 5,
+            "local_pathology": {
+              "id": 5,
+              "name": "Hall de entrada"
+            }
+          }
+        ],
+        "perception_report_type_structs": [
+          {
+            "id": 2,
+            "type_struct_id": 2,
+            "type_struct": {
+              "id": 2,
+              "name": "Barraco misto"
+            }
+          },
+          {
+            "id": 3,
+            "type_struct_id": 4,
+            "type_struct": {
+              "id": 4,
+              "name": "Casa plana conjugada"
+            }
+          }
+        ],
+        "perception_report_type_builds": [
+          {
+            "id": 2,
+            "type_build_id": 1,
+            "type_build": {
+              "id": 1,
+              "name": "Alvenaria ecológica"
+            }
+          },
+          {
+            "id": 3,
+            "type_build_id": 3,
+            "type_build": {
+              "id": 3,
+              "name": "Alvenaria em bloco"
+            }
+          }
+        ],
+        "user": {
+          "id": 116,
+          "name": "SIDNEY DA SILVA NASCIMENTO",
+          "official": {
+            "id": 115,
+            "name": "SIDNEY DA SILVA NASCIMENTO",
+            "identifier": "9750303",
+            "type_official": "standard",
+            "email": "soumaisvasco@gmail.com"
+          }
+        }
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_04b804c3778248c79dcf11518239c01a
+  - id: pair_592eb9566b4244eea1519bae5db0ca07
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1692194907430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

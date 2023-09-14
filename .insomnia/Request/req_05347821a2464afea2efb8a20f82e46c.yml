@@ -1,0 +1,25 @@
+_id: req_05347821a2464afea2efb8a20f82e46c
+type: Request
+parentId: fld_3a1644fd82de452eb05efc2692d6d92c
+modified: 1687187962826
+created: 1687186648680
+url: http://localhost:3000/typologies
+name: GET-ALL-TYPOLOGIES
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686681651062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_41c9742015b54fcb8f15cba30d175c7e
+type: Request
+parentId: fld_2a3e042d54be4ae58dc2a60588811f76
+modified: 1685730319995
+created: 1685730152422
+url: "{{ _.baseURL }}"
+name: GET-HELLO-WORLD
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685730152422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

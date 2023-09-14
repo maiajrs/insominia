@@ -1,0 +1,33 @@
+_id: req_fe454c70b572439c8ace91733ab4cc14
+type: Request
+parentId: fld_49b8e96a19594a548e50a6ce6483979c
+modified: 1686681739265
+created: 1685557477748
+url: http://localhost:3000/type_structs
+name: POST-TYPE_STRUCT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "My new type_struct test 1"
+    }
+parameters: []
+headers:
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_244abf399a2248f586c9f3ebf2ffa6c0
+authentication: {}
+metaSortKey: -1680458796645.2578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

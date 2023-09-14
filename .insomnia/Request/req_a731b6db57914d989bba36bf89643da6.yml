@@ -1,0 +1,25 @@
+_id: req_a731b6db57914d989bba36bf89643da6
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683559458803
+created: 1683558818382
+url: http://localhost:3000/contacts/1/address
+name: DELETE-ONE-CONTACT-ADDRESS
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+authentication: {}
+metaSortKey: -1681020144877.3867
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

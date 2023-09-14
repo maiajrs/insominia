@@ -1,0 +1,29 @@
+_id: req_daee9e6d55714228b0783bee266e0b44
+type: Request
+parentId: fld_0d8d5338c24244e7ae8cc68935275aa8
+modified: 1687292959670
+created: 1686662984675
+url: "{{ _.baseURL }}/users/03529adf-c151-4c4c-9c59-edafc1b922e3"
+name: UPDATE_PARTIAL_USER
+description: ""
+method: PATCH
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_d6e19b44c5674856b674438761e26432
+      name: password
+      value: "123456"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1686312036825.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

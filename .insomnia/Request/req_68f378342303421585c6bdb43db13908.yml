@@ -1,0 +1,34 @@
+_id: req_68f378342303421585c6bdb43db13908
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683743868648
+created: 1683726928900
+url: "{{ _.baseURL }}/auth"
+name: POST-NEW-USER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "jrmaiafs@gmail.com",
+    	"password": "12345678",
+    	"password_confirmation": "12345678"
+    }
+parameters: []
+headers:
+  - id: pair_e62775b1123e404bbe537c25e86adc21
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683726928900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

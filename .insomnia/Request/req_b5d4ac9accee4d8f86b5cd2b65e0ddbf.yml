@@ -1,0 +1,33 @@
+_id: req_b5d4ac9accee4d8f86b5cd2b65e0ddbf
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1684148757455
+created: 1683743887452
+url: "{{ _.baseLocalV1 }}/auth/sign_in"
+name: POST-SIGNIN-USER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "jrmaiafs@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - id: pair_e62775b1123e404bbe537c25e86adc21
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682862711653.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

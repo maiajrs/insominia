@@ -1,0 +1,34 @@
+_id: req_dd30d9fe0a5d412293e9166e3a34d017
+type: Request
+parentId: fld_bec0a63dae86485cb23c3c555c676be9
+modified: 1687365810695
+created: 1687365739495
+url: http://localhost:3000/departaments
+name: POST_ACTION-v1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"namea": "new departament from insomnia"
+    }
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_5868670e33b8401d8ec7a0236e60b0be
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686666288366.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_21166ef5f7554ffc81962483f3bfccc4
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683809468276
+created: 1683231416074
+url: http://localhost:3000/contacts/46/kind?version=1
+name: GET-ONE-CONTACT-KIND
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+authentication: {}
+metaSortKey: -1681143106840.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_48a71066ee484bfb919ebfd28bd6dd03
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683553701100
+created: 1683553701100
+url: http://localhost:3000/phones/2
+name: GET-ONE-PHONE-BY-ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+authentication: {}
+metaSortKey: -1680993414015.9219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

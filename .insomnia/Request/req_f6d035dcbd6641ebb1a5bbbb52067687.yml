@@ -1,0 +1,29 @@
+_id: req_f6d035dcbd6641ebb1a5bbbb52067687
+type: Request
+parentId: fld_3a1644fd82de452eb05efc2692d6d92c
+modified: 1687188094106
+created: 1687186648685
+url: http://localhost:3000/typologies/16
+name: DELETE_ACTION
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_8433a5855af0488eadbc381aa25d5289
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686663727917.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_0e7fc65580fa40e180b03970abfa47c7
+type: Request
+parentId: fld_0d432202984d4246bd7da4d8b55a1f86
+modified: 1687288698308
+created: 1687284532657
+url: http://localhost:3000/vehicles/1
+name: DELETE_ACTION
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_8433a5855af0488eadbc381aa25d5289
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1686663727917.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

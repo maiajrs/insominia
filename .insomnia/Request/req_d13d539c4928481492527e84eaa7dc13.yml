@@ -1,0 +1,29 @@
+_id: req_d13d539c4928481492527e84eaa7dc13
+type: Request
+parentId: fld_a7934eaf2f4e4eb8839f2c93ebbbc394
+modified: 1686921883200
+created: 1686683170777
+url: http://localhost:3000/actions/6
+name: DELETE_ACTION
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_8433a5855af0488eadbc381aa25d5289
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686663727917.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

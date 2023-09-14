@@ -1,0 +1,40 @@
+_id: req_08b9383c8302408ea775906dc3edf61e
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683803216666
+created: 1682682172973
+url: "{{ _.baseURL }}/kinds"
+name: GET-ALL-KINDS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - id: pair_6f8f835fde254044bcb2976caca73f07
+    name: access-token
+    value: MN7F8gLZgqQAT4QLAB32lw
+    description: ""
+    disabled: false
+  - id: pair_7c76aff70e4240dba3b60ae41b78300e
+    name: client
+    value: zg74RWRQUFWNGm0MsxoNMg
+    description: ""
+  - id: pair_028501b8153f469e8a25a73a497787c4
+    name: uid
+    value: jrmaiafs@gmail.com
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjpudWxsLCJleHAiOjE2ODM3MzExODF9.fp1xi-C0Rar3hTDQwK7Bc38eez165kjZ7y6JcW50vLw
+metaSortKey: -1681314184353.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

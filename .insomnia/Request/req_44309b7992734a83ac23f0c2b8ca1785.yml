@@ -1,0 +1,36 @@
+_id: req_44309b7992734a83ac23f0c2b8ca1785
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683642336472
+created: 1683642309167
+url: http://localhost:3000/contacts/11/phone
+name: DELETE-ONE-CONTACT-PHONES
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": 
+    		{
+    			"id": "199",
+    			"type": "phones"
+    		}
+    }
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681038856480.412
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

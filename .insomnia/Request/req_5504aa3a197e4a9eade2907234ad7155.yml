@@ -1,0 +1,34 @@
+_id: req_5504aa3a197e4a9eade2907234ad7155
+type: Request
+parentId: fld_0d432202984d4246bd7da4d8b55a1f86
+modified: 1687284596666
+created: 1687284532655
+url: http://localhost:3000/vehicles
+name: POST_VEHICLE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "my new car name from insomnia"
+    }
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_5868670e33b8401d8ec7a0236e60b0be
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686666288366.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

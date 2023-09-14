@@ -1,0 +1,25 @@
+_id: req_4224e0aca1314107b1c59980cd0e47ec
+type: Request
+parentId: fld_bec0a63dae86485cb23c3c555c676be9
+modified: 1687365739493
+created: 1687365739493
+url: http://localhost:3000/actions/2
+name: GET-ONE-ACTION
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686671409265
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

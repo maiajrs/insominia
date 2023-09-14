@@ -1,0 +1,34 @@
+_id: req_08ef096ded7e4522a8764c37b306e790
+type: Request
+parentId: fld_3a1644fd82de452eb05efc2692d6d92c
+modified: 1687190652213
+created: 1687190551053
+url: http://localhost:3000/typologies/16
+name: UPDATE_TYPOLOGY
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "my updated typology from insomnia"
+    }
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_5868670e33b8401d8ec7a0236e60b0be
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686665008141.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_1daa48188c9c4336b4f1f9b33927d77e
+type: Request
+parentId: fld_49b8e96a19594a548e50a6ce6483979c
+modified: 1685755899491
+created: 1685556743175
+url: http://localhost:3000/type_structs
+name: GET-TYPE_STRUCT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: "Accept:"
+    value: application/json
+    description: ""
+  - id: pair_c4150537cbbb49248d4e3ec5044c2e4e
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1680458796595.2578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

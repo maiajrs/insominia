@@ -1,0 +1,35 @@
+_id: req_d6dfb02e7bc24ce3bb246efe7fd2463f
+type: Request
+parentId: fld_49b8e96a19594a548e50a6ce6483979c
+modified: 1685755935106
+created: 1685557906098
+url: http://localhost:3000/type_structs/21
+name: UPDATE-TYPE_STRUCT
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "My new type struct test edited with desc"
+
+    }
+parameters: []
+headers:
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: "Accept:"
+    value: application/json
+    description: ""
+  - id: pair_c4150537cbbb49248d4e3ec5044c2e4e
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1680416027219.0723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

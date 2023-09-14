@@ -1,0 +1,13 @@
+_id: fld_0d8d5338c24244e7ae8cc68935275aa8
+type: RequestGroup
+parentId: wrk_c7fbf53fa1744747a1f26c03b7fddab0
+modified: 1686661338309
+created: 1686661161665
+name: CRUD-NEST-API
+description: ""
+environment:
+  baseURL: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - baseURL
+metaSortKey: -1686661161665

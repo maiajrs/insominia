@@ -1,0 +1,33 @@
+_id: req_f49106d511d342d295bd25f9ef4abf04
+type: Request
+parentId: fld_82ec26e3d0c14992b93292a1e724617c
+modified: 1676905160768
+created: 1676903410523
+url: "{{ _.baseURL }}/clients"
+name: CREATE-NEW-CLIENT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "client1",
+    	"email": "client1@mail.com",
+    	"telefone": "85981960101",
+    	"idade": "35",
+    	"linkedin": "client1@linkedin.com",
+    	"anotacoes": "client1 first anotations"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676903410523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

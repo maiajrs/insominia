@@ -1,0 +1,39 @@
+_id: req_5d59fd8f46344979962f6f6fa13c8a2a
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683557959719
+created: 1683557931394
+url: http://localhost:3000/contacts/40/address
+name: UPDATE-ONE-CONTACT-ADDRESS
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"id": "40",
+    		"type": "addresses",
+    		"attributes": {
+    			"street": "20000000000000000000 Travessa Louise Resende",
+    			"city": "Taipu"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681025491049.6797
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_347fe3fc7b3c4788b1a748337f1b99d4
+type: Request
+parentId: fld_b913b5a057ae441eb3f68c504ec2e1bf
+modified: 1685547716871
+created: 1685547705758
+url: http://localhost:3000/sector
+name: GET-SECTOR
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: "Accept:"
+    value: application/json
+    description: ""
+  - id: pair_c4150537cbbb49248d4e3ec5044c2e4e
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1680287718990.5156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

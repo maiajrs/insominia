@@ -1,0 +1,34 @@
+_id: req_adc632c7779442f1a30f9ec8a3fb964e
+type: Request
+parentId: fld_3a1644fd82de452eb05efc2692d6d92c
+modified: 1687188069071
+created: 1687186648684
+url: http://localhost:3000/typologies
+name: POST_TYPOLOGY
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "my new typology from insomnia"
+    }
+parameters: []
+headers:
+  - id: pair_815836050aa44120b6dde06a65a2b619
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_5868670e33b8401d8ec7a0236e60b0be
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1686666288366.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

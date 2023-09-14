@@ -1,0 +1,25 @@
+_id: req_21f2441199c44856aae5bc6ea7c388ef
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683809490894
+created: 1683550685862
+url: http://localhost:3000/contacts/11/phones?version=2
+name: GET-ALL-CONTACT-PHONES
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+authentication: {}
+metaSortKey: -1681057568083.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

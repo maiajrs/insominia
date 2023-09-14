@@ -1,0 +1,39 @@
+_id: req_325e9b9441e2489c8e87e12f74f4ad1c
+type: Request
+parentId: fld_2d088ece82b04a618943b2821eeae50d
+modified: 1683641454162
+created: 1683641398232
+url: http://localhost:3000/contacts/11/phone
+name: UPDATE-ONE-CONTACT-PHONES
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": 
+    		{
+    			"id": "199",
+    			"type": "phones",
+    			"attributes": {
+    				"number": "(85) 987816021"
+    			}
+    		}
+    }
+parameters: []
+headers:
+  - id: pair_3068432c2a594286aecbee21179128f5
+    name: Accept
+    value: application/vnd.api+json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681041529566.5586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

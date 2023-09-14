@@ -1,0 +1,33 @@
+_id: req_abd98d263ab54906ad117189b5d74f0f
+type: Request
+parentId: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+modified: 1677887112240
+created: 1677005987086
+url: "{{ _.baseURL }}/client/14e7290e-5d0d-49ae-9217-4d5997329925"
+name: PATCH-USER
+description: ""
+method: PATCH
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_9c668f2b922948b69b90f96568c81c32
+      name: name
+      value: Caio
+      description: ""
+    - id: pair_26e54ea1386045039da51675324a4b55
+      name: telefone
+      value: "85981918550"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1676962719798.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

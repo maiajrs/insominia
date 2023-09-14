@@ -1,0 +1,30 @@
+_id: req_ba46f7c670714137b7de1ce3c9f4aba1
+type: Request
+parentId: fld_0d8d5338c24244e7ae8cc68935275aa8
+modified: 1687291330242
+created: 1686662225486
+url: "{{ _.baseURL }}/users/03529adf-c151-4c4c-9c59-edafc1b922e3"
+name: SHOW_ONE_USER
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Júnior Maia",
+    	"email": "jrmaiafs@gmail.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685962906183.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

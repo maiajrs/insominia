@@ -1,0 +1,35 @@
+_id: req_a326a89c292a4a7db21b0d12e44594eb
+type: Request
+parentId: fld_f61a1f344f524d33a3481c154c4fe61c
+modified: 1685557587137
+created: 1680633463667
+url: http://localhost:3000/officials/39
+name: UPDATE-OFFICIALS
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "757757575",
+    	"name": "Pereira Mota de Andrade"
+    }
+parameters: []
+headers:
+  - id: pair_bb82f22b7d6d43b4b79b8bbc0a8a45b7
+    name: "Accept:"
+    value: application/json
+    description: ""
+  - id: pair_c4150537cbbb49248d4e3ec5044c2e4e
+    name: Content-type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1685249565365.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

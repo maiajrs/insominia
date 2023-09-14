@@ -1,0 +1,13 @@
+_id: fld_e5dc7f3d2de9445bb5d8b057dc63a75b
+type: RequestGroup
+parentId: wrk_c7fbf53fa1744747a1f26c03b7fddab0
+modified: 1677000254570
+created: 1677000213466
+name: Api-Hcode-Nest
+description: ""
+environment:
+  baseURL: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - baseURL
+metaSortKey: -1677000213466
