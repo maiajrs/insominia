@@ -1,9 +1,9 @@
 _id: req_e6466ecfee7e4fd4a9bd823e13d5877d
 type: Request
 parentId: fld_c152fadd358449fb9b922a9d5885402e
-modified: 1694702288390
+modified: 1694731171701
 created: 1694699280895
-url: http://localhost:3003/create-order-split
+url: http://localhost:3000/create-order-split
 name: CREATE-ORDER-SPLIT
 description: ""
 method: GET

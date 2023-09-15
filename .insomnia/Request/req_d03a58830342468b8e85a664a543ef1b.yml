@@ -1,10 +1,10 @@
-_id: req_df2479ddeda7491fa347cebc1b115d75
+_id: req_d03a58830342468b8e85a664a543ef1b
 type: Request
 parentId: fld_c152fadd358449fb9b922a9d5885402e
-modified: 1694732640543
-created: 1694607457237
-url: http://localhost:3000/get-split
-name: GET-SPLIT-INFO
+modified: 1694733283040
+created: 1694732651702
+url: http://localhost:3000/get-charge
+name: GET-CHARGE-INFO
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1694607457237
+metaSortKey: -1694457844117.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
