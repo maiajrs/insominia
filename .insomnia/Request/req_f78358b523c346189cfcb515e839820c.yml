@@ -1,0 +1,23 @@
+_id: req_f78358b523c346189cfcb515e839820c
+type: Request
+parentId: fld_545e6fad35da46d2a99860433aedf057
+modified: 1694871818428
+created: 1694871777786
+url: http://localhost:3000/authenticate
+name: AUTHENTICATE
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694871777786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

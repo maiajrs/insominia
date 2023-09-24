@@ -1,0 +1,23 @@
+_id: req_4e732d729fcf4b458c84628c500d4002
+type: Request
+parentId: fld_e7be55cbe8df4c89b541f6bc77a573e0
+modified: 1695313624763
+created: 1695244483888
+url: http://localhost:3000/settings?query=label=banners
+name: LIST-SETTINGS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjdhNjZjZi1mMWQ5LTQ3OTgtYTU4My02YzMyODBlNGUxOGQiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImlhdCI6MTY5NTMxMzQ4NywiZXhwIjoxNjk1MzIwNjg3fQ.j6jk2e1m3WcG-7Diu496vVRKZDPdG6f9UuZvqOTWd04
+metaSortKey: -1695031533978.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

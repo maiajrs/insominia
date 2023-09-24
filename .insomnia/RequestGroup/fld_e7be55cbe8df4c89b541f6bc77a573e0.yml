@@ -1,0 +1,13 @@
+_id: fld_e7be55cbe8df4c89b541f6bc77a573e0
+type: RequestGroup
+parentId: wrk_c7fbf53fa1744747a1f26c03b7fddab0
+modified: 1694890350522
+created: 1694890126394
+name: NUBALAIO
+description: ""
+environment:
+  base_URL: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - base_URL
+metaSortKey: -1694890126394

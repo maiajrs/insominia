@@ -1,0 +1,35 @@
+_id: req_2e22ac028e9c48b98413e829e343a057
+type: Request
+parentId: fld_e7be55cbe8df4c89b541f6bc77a573e0
+modified: 1695313539028
+created: 1695172803489
+url: http://localhost:3000/settings
+name: CREATE-SETTING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "label": "shipping",
+      "key": "shi_1",
+      "value": {
+          "description": "This is a description",
+          "weight": 1
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjdhNjZjZi1mMWQ5LTQ3OTgtYTU4My02YzMyODBlNGUxOGQiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImlhdCI6MTY5NTMxMzQ4NywiZXhwIjoxNjk1MzIwNjg3fQ.j6jk2e1m3WcG-7Diu496vVRKZDPdG6f9UuZvqOTWd04.YTHjysGk8W8qYFZAmmOCPgQlrz47BMFwwEpiVoFXL9k
+metaSortKey: -1695172803489
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

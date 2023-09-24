@@ -1,0 +1,29 @@
+_id: req_e6e73b2a57144320add1d5f5ab0a3ed3
+type: Request
+parentId: fld_9ce9919f5f4a4c17a7186d33b476b4ad
+modified: 1694890587304
+created: 1694888623347
+url: "{{ _.base_URL }}/order-status/27fbe36c-46bc-4eee-b699-8f17163a369b"
+name: DELETE-ORDER-STATUS
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - id: pair_d24ecf96bef642d39d0ae973d40c6f82
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YzU0YmU1Ni0wMTZiLTQ1YTYtOGU5Zi00NTk1OWZhNzllY2EiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImlhdCI6MTY5NDg4ODU0NSwiZXhwIjoxNjk0ODk1NzQ1fQ.J0txz1mkxlbrJjWPqin83xYwQpN4jGZL5ZzQzozSySc
+metaSortKey: -1694890264468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

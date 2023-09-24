@@ -1,12 +1,12 @@
 _id: fld_2d088ece82b04a618943b2821eeae50d
 type: RequestGroup
 parentId: wrk_c7fbf53fa1744747a1f26c03b7fddab0
-modified: 1684151106974
+modified: 1694888318148
 created: 1681998489960
 name: BACKEND-NOTEBOOK-API
 description: ""
 environment:
-  baseLocalV1: meusite.local:3000
+  baseLocalV1: http://localhost:3000
   baseLocalV2: meusite.local:3000
 environmentPropertyOrder:
   "&":

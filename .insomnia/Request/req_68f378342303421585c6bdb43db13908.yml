@@ -1,9 +1,9 @@
 _id: req_68f378342303421585c6bdb43db13908
 type: Request
 parentId: fld_2d088ece82b04a618943b2821eeae50d
-modified: 1683743868648
+modified: 1694888325969
 created: 1683726928900
-url: "{{ _.baseURL }}/auth"
+url: "{{ _.baseLocalV1 }}/auth"
 name: POST-NEW-USER
 description: ""
 method: POST

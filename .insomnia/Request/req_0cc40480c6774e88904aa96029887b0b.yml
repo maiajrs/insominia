@@ -1,0 +1,29 @@
+_id: req_0cc40480c6774e88904aa96029887b0b
+type: Request
+parentId: fld_e7be55cbe8df4c89b541f6bc77a573e0
+modified: 1695344005815
+created: 1695342957926
+url: http://localhost:3000/products/ed3798f1-2b0d-4740-9847-2836089f56ba/gallery
+name: PRODUCT-IMAGES
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjdhNjZjZi1mMWQ5LTQ3OTgtYTU4My02YzMyODBlNGUxOGQiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImlhdCI6MTY5NTM0MjQ0OSwiZXhwIjoxNjk1MzQ5NjQ5fQ.hnSgpYx6AwgwcJRu9V0o4JEMSGBsJ9z8sozQnVw-FC8
+metaSortKey: -1695257633607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

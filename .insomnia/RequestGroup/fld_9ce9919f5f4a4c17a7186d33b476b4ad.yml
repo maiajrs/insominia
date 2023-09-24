@@ -1,0 +1,13 @@
+_id: fld_9ce9919f5f4a4c17a7186d33b476b4ad
+type: RequestGroup
+parentId: fld_e7be55cbe8df4c89b541f6bc77a573e0
+modified: 1694890422132
+created: 1694890258476
+name: SOFT-DELETE
+description: ""
+environment:
+  base_URL: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - base_URL
+metaSortKey: -1694890258476

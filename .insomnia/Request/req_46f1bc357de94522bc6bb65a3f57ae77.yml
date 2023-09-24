@@ -1,0 +1,29 @@
+_id: req_46f1bc357de94522bc6bb65a3f57ae77
+type: Request
+parentId: fld_e7be55cbe8df4c89b541f6bc77a573e0
+modified: 1695343244165
+created: 1695342463725
+url: http://localhost:3000/products/list
+name: LIST-PRODUCTS
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjdhNjZjZi1mMWQ5LTQ3OTgtYTU4My02YzMyODBlNGUxOGQiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImlhdCI6MTY5NTM0MjQ0OSwiZXhwIjoxNjk1MzQ5NjQ5fQ.hnSgpYx6AwgwcJRu9V0o4JEMSGBsJ9z8sozQnVw-FC8
+metaSortKey: -1695342463725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

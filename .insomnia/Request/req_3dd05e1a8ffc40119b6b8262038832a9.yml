@@ -1,0 +1,23 @@
+_id: req_3dd05e1a8ffc40119b6b8262038832a9
+type: Request
+parentId: fld_545e6fad35da46d2a99860433aedf057
+modified: 1694885093583
+created: 1694885084015
+url: http://localhost:3000/create-pix
+name: CREATE-PIX
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694739617511.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
